@@ -13,6 +13,18 @@
 	/* font-family: 'Roboto Mono', monospace; */
 }
 
+* {
+	color: #4923F4;
+	/* color: #EDDFD8; */
+	
+}
+
+.highlight {
+	color: #FFFFFF;
+	background-color: #4923F4;
+	padding: 0 5px 0 5px;
+}
+
 nav a {
     color: #000000;
 }
@@ -41,4 +53,17 @@ nav a {
 	border: 0px;
 }
 
+#main {
+	/* position: relative; */
+	/* left: 23px; */
+}
+
+#intro {
+	margin: 200px 0 0 50px;
+	max-width: 900px;
+}
+
+#intro p {
+	margin-top: 40px;
+}
 
