@@ -23,6 +23,16 @@
 	color: #4923F4;
 }
 
+.btn-a {
+	background-color: #EDDFD8;
+	border: 3.5px solid #4923F4;
+	padding: 7px 10px;
+}
+
+.btn-a:hover {
+	color: #FFFFFF;
+	background-color: #4923F4;
+}
 
 .highlight {
 	color: #FFFFFF;
@@ -105,4 +115,8 @@ nav a {
 	width: 800px;
 	display: flex;
 	gap: 100px;
+}
+
+#about-content button {
+	margin-top: 20px;
 }
