@@ -16,8 +16,13 @@
 * {
 	color: #4923F4;
 	/* color: #EDDFD8; */
-	
 }
+
+.link {
+	text-decoration: none;
+	color: #4923F4;
+}
+
 
 .highlight {
 	color: #FFFFFF;
@@ -53,17 +58,51 @@ nav a {
 	border: 0px;
 }
 
-#main {
-	/* position: relative; */
-	/* left: 23px; */
-}
+/*------/ INTRO /------*/
 
-#intro {
-	margin: 200px 0 0 50px;
+#intro-title {
+	margin: 200px 0 178px 50px;
 	max-width: 900px;
 }
 
-#intro p {
+#intro-title p {
 	margin-top: 40px;
 }
 
+#intro-title a:hover {
+	color: #FFFFFF;
+	background-color: #4923F4;
+}
+
+/*------/ ABOUT /------*/
+
+.diagonal-bg {
+	background-color: #EDDFD8;
+	transform: skewY(-6deg);
+} 
+
+.content { 	
+	max-width: 50em;
+	transform: skewY(6deg);
+	padding: 100px 0 100px 0;
+}
+
+.diagonal-title {
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.photo {
+	width: 280px;
+	height: 280px;
+}
+
+#about p {
+	font-size: 20px;
+}
+
+#about-content {
+	width: 800px;
+	display: flex;
+	gap: 100px;
+}
