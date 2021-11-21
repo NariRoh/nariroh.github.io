@@ -341,3 +341,25 @@ nav a {
 #skills i {
 	padding: 20px 20px;
 }
+
+/*------/ CONTACT /------*/
+
+#contact {
+	margin: 100px 0 50px 0;
+}
+
+#contact h1 {
+	padding-bottom: 50px;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #4923F4;
+	border-bottom: 4px solid #4923F4;
+	padding: 0 5px 0 5px;
+}
+
+#contact a:hover {
+	color: #FFFFFF;
+	background-color: #4923F4;
+}
