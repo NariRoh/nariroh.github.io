@@ -8,6 +8,8 @@
 /* Roboto Mono */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+/*------/ GENERAL /------*/
+
 body:not(i) {
 	font-family: 'Oswald', sans-serif;
 	/* font-family: 'Roboto Mono', monospace; */
@@ -19,10 +21,10 @@ body {
 	/* color: #EDDFD8; */
 }
 
-.link {
+/* .link {
 	text-decoration: none;
 	color: #4923F4;
-}
+} */
 
 .btn-a, .btn-b:hover {
 	background-color: #EDDFD8;
@@ -49,9 +51,7 @@ body {
 	padding: 0 5px 0 5px;
 }
 
-nav a {
-    color: #000000;
-}
+/*------/ NAVBAR /------*/
 
 .navbar {
 	margin-left: 30px;
@@ -59,11 +59,11 @@ nav a {
 }
 
 .nav-item a {
-	color: #000000;
+	color: #4923F4;
 }
 
 .navbar-light .navbar-toggler, .navbar-toggler i {
-	color: #000000;
+	color: #4923F4;
 	border: none;
 }
 
@@ -92,9 +92,13 @@ nav a {
 	margin-top: 40px;
 }
 
-#intro-title a:hover {
-	color: #FFFFFF;
-	background-color: #4923F4;
+#intro a {
+	color: #4923F4;
+	text-decoration: none;
+}
+
+#intro a:hover {
+	border-bottom: 3px solid #4923F4;
 }
 
 /*------/ ABOUT /------*/
@@ -144,32 +148,32 @@ nav a {
 
 /*------/ PROJECT /------*/
 
-#project {
+#projects {
 	margin-top: 150px;
 	margin-bottom: 150px;
 	color: #4923F4;
 }
 
-#project article {
+#projects article {
 	margin-bottom: 150px;
 }
 
-#project .section-content {
+#projects .section-content {
 	width: 1000px;
 }
 
-#project article {
+#projects article {
 	gap: 70px;
 }
 
-#project h4 {
+#projects h4 {
 	display: inline-block;
 	padding-top: 5px;
 	padding-bottom: 3px;
 	margin-bottom: 10px;
 }
 
-#project p {
+#projects p {
 	color: #000000;
 }
 
@@ -199,7 +203,7 @@ nav a {
 	margin-right: 10px;
 }
 
-#project a:hover {
+#projects a:hover {
 	color: #FFFFFF;
 	background-color: #4923F4;
 }
