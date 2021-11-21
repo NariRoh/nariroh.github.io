@@ -4,16 +4,17 @@
 /*------/ Google Fonts  /------*/
 
 /* Oswald */
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
 /* Roboto Mono */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-*:not(i) {
+body:not(i) {
 	font-family: 'Oswald', sans-serif;
 	/* font-family: 'Roboto Mono', monospace; */
 }
 
-* {
+body {
+	/* background-color: #EDDFD8; */
 	color: #4923F4;
 	/* color: #EDDFD8; */
 }
@@ -23,15 +24,23 @@
 	color: #4923F4;
 }
 
-.btn-a {
+.btn-a, .btn-b:hover {
 	background-color: #EDDFD8;
 	border: 3.5px solid #4923F4;
 	padding: 7px 10px;
+	color: #4923F4;
 }
 
 .btn-a:hover {
 	color: #FFFFFF;
 	background-color: #4923F4;
+}
+
+.btn-b {
+	background-color: #4923F4;
+	border: 3.5px solid #4923F4;
+	padding: 7px 10px;
+	color: #EDDFD8;
 }
 
 .highlight {
@@ -70,6 +79,10 @@ nav a {
 
 /*------/ INTRO /------*/
 
+#intro {
+	color: #4923F4;
+}
+
 #intro-title {
 	margin: 200px 0 178px 50px;
 	max-width: 900px;
@@ -86,6 +99,10 @@ nav a {
 
 /*------/ ABOUT /------*/
 
+#about {
+	color: #4923F4;
+}
+
 .diagonal-bg {
 	background-color: #EDDFD8;
 	transform: skewY(-6deg);
@@ -97,9 +114,10 @@ nav a {
 	padding: 100px 0 100px 0;
 }
 
-.diagonal-title {
+.title {
 	padding-bottom: 80px;
 	text-align: center;
+	/* color: #4923F4; */
 }
 
 .photo {
@@ -111,12 +129,89 @@ nav a {
 	font-size: 20px;
 }
 
-#about-content {
+.section-content {
 	width: 800px;
 	display: flex;
+}
+
+#about .section-content {
 	gap: 100px;
 }
 
-#about-content button {
+#about button {
 	margin-top: 20px;
 }
+
+/*------/ PROJECT /------*/
+
+#project {
+	margin-top: 150px;
+	margin-bottom: 150px;
+	color: #4923F4;
+}
+
+#project article {
+	margin-bottom: 150px;
+}
+
+#project .section-content {
+	width: 1000px;
+}
+
+#project article {
+	gap: 70px;
+}
+
+#project h4 {
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+}
+
+#project p {
+	color: #000000;
+}
+
+.pro-description > p {
+	font-size: 20px;
+}
+
+.pro-description a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.tech-used {
+	font-size: 18px;
+}
+
+.tech-used span {
+	margin-bottom: 10px;
+}
+
+.pro-links a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #4923F4;
+	border-bottom: 3px solid #4923F4;
+	display: inline;
+	margin-right: 10px;
+}
+
+#project a:hover {
+	color: #FFFFFF;
+	background-color: #4923F4;
+}
+
+/* .photo-wrapper{
+	width: 450px;
+	border: 2px solid #4923F4;
+	padding: 10px;
+} */
+
+.project-photo {
+	width: 450px;
+	height: 300px;
+}
+

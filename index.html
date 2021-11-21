@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nari Roh</title>
-		<link rel="stylesheet" href="main.css">
     <!-- BootStrap CSS CDN -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+		rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+		crossorigin="anonymous"
     />
+		<!-- Main CSS CDN -->
+		<link rel="stylesheet" href="main.css">
     <!-- BootStrap JS CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -69,21 +70,70 @@
 			<section id="about">
 				<div class="diagonal-bg">
 					<div class="content container">
-						<h1 class="diagonal-title">About Me.</h1>
-						<div class="mx-auto" id="about-content">
+						<h1 class="title">About Me.</h1>
+						<div class="mx-auto section-content">
 							<img class="rounded-circle photo" src="img/profile.jpg" alt="profile photo">
 							<div>
 								<div>
-									<p>Hi, my name is Nari. </p>
+									<p>Hi, my name is Nari.</p>
 									<p>Currently attending a Full Stack Web Developer program in John Abbott College. I'm looking for new work opportunities.</p>
 								</div>
 								<div>
 									<p>Experienced working with : </p>
-									<p>HTML5, CSS, Javascript, jQuery, AJAX, React,PHP, Node.js, Express.js, Ruby on Rails, and Git/Github.</p>
+									<p>HTML5, CSS, Javascript, jQuery, AJAX, React, PHP, Node.js, Express.js, Ruby on Rails, MySQL, PostgreSQL, and Git/Github.</p>
 								</div>
-								<button class="btn-a">Download CV</button>
+								<a href="" download><button class="btn-b">Download CV</button></a>
+								
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
+			<section id="project">
+				<div class="container">
+					<h1 class="title">Project.</h1>
+					<div class="section-content mx-auto flex-wrap">
+						<article class="d-flex">
+							<div class="pro-description">
+								<h4 class="highlight">FEBF Estate</h4>
+								<p>A real estate web application. Users (buyer/broker) can view properties.</p>
+								<p>This was a team project - worked with <a href="https://www.linkedin.com/in/feng-han-718018226/"target="_blank">Feng Han</a> and <a href="https://www.linkedin.com/in/christopher-latchman/" target="_blank">Chris L.</a> My main work was creating CRUD for broker and apply styles on website</p>
+								<div class="tech-used">
+									<span>Technology Used</span>
+									<p>HTML, CSS, JavaScript, jQuery Ajax, PHP, Slim, Twig, MySQL, Google maps API, BootStrap</p>
+								</div>
+								<div class="pro-links">
+									<a href="https://realestate.fsd01.ca/" target="_blank">Live Demo</a>
+									<a href="https://github.com/Angus-Feng/real-estate-project" target="_blank">Source Code</a>
+									<a href="https://www.canva.com/design/DAEvi6m7RGY/eqnpLhkgdSH7-GVV_7BXqw/view?utm_content=DAEvi6m7RGY&utm_campaign=designshare&utm_medium=link&utm_source=viewer" target="_blank">Presentation</a>
+								</div>
+							</div>
+							<div class="">
+								<a href="https://realestate.fsd01.ca/" target="_blank">
+									<img class="project-photo" src="img/project-2.jpg" alt="real estate project photo">
+								</a>
+							</div>
+						</article>
+						<article class="d-flex flex-row-reverse">
+							<div class="pro-description">
+								<h4 class="highlight">Chez Feng</h4>
+								<p>A bakery website.</p>
+								<p>This was a team project - worked with <a href="#" target="_blank">Yuan Yuan</a>, <a href="https://www.linkedin.com/in/feng-han-718018226/"target="_blank">Feng Han</a>, and <a href="https://www.linkedin.com/in/christopher-latchman/" target="_blank">Chris L.</a> My main work was creating CRUD for broker and apply styles on website</p>
+								<div class="tech-used">
+									<span>Technology Used</span>
+									<p>HTML, CSS, JavaScript, jQuery, Ajax, Instagram API, BootStrap</p>
+								</div>
+								<div class="pro-links">
+									<a href="https://bakery.fsd01.ca/" target="_blank">Live Demo</a>
+									<a href="https://github.com/Angus-Feng/Group-Project" target="_blank">Source Code</a>
+								</div>
+							</div>
+							<div class="">
+								<a href="https://bakery.fsd01.ca/" target="_blank">
+									<img class="project-photo" src="img/project-1.jpg" alt="bakery project photo">
+								</a>
+							</div>
+						</article>
 					</div>
 				</div>
 			</section>
