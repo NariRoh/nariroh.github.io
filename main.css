@@ -45,6 +45,18 @@ body {
 	color: #EDDFD8;
 }
 
+.btn-c {
+	background-color: #4923F4;
+	border: 3.5px solid #4923F4;
+	padding: 7px 10px;
+	color: #FFFFFF;
+}
+
+.btn-c:hover {
+	color: #4923F4;
+	background-color: #FFFFFF;
+}
+
 .highlight {
 	color: #FFFFFF;
 	background-color: #4923F4;
@@ -143,6 +155,9 @@ body {
 
 #about {
 	color: #4923F4;
+	margin-top: 150px; 
+	padding-bottom: 150px; 
+	border-bottom: 1px solid #4923F4;
 }
 
 .diagonal-bg {
@@ -153,7 +168,7 @@ body {
 .content { 	
 	max-width: 50em;
 	transform: skewY(6deg);
-	padding: 100px 0 100px 0;
+	/* padding: 100px 0 100px 0; */
 }
 
 .title {
@@ -187,12 +202,12 @@ body {
 /*------/ PROJECT /------*/
 
 #projects {
-	margin-top: 150px;
-	margin-bottom: 150px;
+	margin-top: 130px;
+	margin-bottom: 20px;
 	color: #4923F4;
 }
 
-#projects article {
+#projects article:first-of-type {
 	margin-bottom: 150px;
 }
 
@@ -378,6 +393,10 @@ body {
 	width: 1000px;
 }
 
+#skills .content {
+	padding: 100px 0 100px 0;
+}
+
 #skills i {
 	padding: 20px 20px;
 }
@@ -385,14 +404,43 @@ body {
 /*------/ CONTACT /------*/
 
 #contact {
-	margin: 100px 0 100px 0;
+	margin-top: 100px;
+}
+
+.contact-bg {
+	padding: 150px 0 100px 0;
+	background-color: #FFFFFF;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	overflow:hidden;
+	z-index: 1;
+}
+
+.contact-bg:after {
+	width: 100%;
+	content: "";
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 18%;
+	-webkit-transform: skewY(-6deg);
+	-moz-transform: skewY(-6deg);
+	-ms-transform: skewY(-6deg);
+	-o-transform: skewY(-6deg);
+	transform: skewY(-6deg);
+	background-color: #EDDFD8;
+	z-index: 2;
+}
+
+#contact .contact-content {
+	position: relative;
+	z-index: 3;
 }
 
 #contact h1 {
 	padding-bottom: 50px;
 }
-
-#contact h3 {}
 
 #contact a {
 	text-decoration: none;
@@ -429,18 +477,11 @@ footer {
 	
 }
 
-.social a:last-of-type {
-	/* margin-left: 30px; */
-}
-
 .social a:hover {
 	background-color: #4923F4;
 	color: #FFFFFF;
 }
 
-.social span {
-	/* display: inline-block; */
-}
 footer p:last-of-type  {
 	font-weight: 300;
 	font-size: 15px;
