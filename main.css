@@ -68,11 +68,12 @@ body {
 	color: #FFFFFF;
 	padding: 8px 15px;
 }
+
 /*------/ NAVBAR /------*/
 
 .navbar {
-	margin-left: 30px;
-	margin-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .nav-item a {
@@ -240,16 +241,14 @@ body {
 	margin-right: 10px;
 }
 
-#projects a:hover {
+.pro-description a:hover {
 	color: #FFFFFF;
 	background-color: #4923F4;
 }
 
-/* .photo-wrapper{
-	width: 450px;
-	border: 2px solid #4923F4;
-	padding: 10px;
-} */
+.project-img-box {
+	margin-top: 50px;
+}
 
 .project-photo {
 	width: 450px;
