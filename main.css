@@ -16,15 +16,9 @@ body:not(i) {
 }
 
 body {
-	/* background-color: #EDDFD8; */
 	color: #4923F4;
 	/* color: #EDDFD8; */
 }
-
-/* .link {
-	text-decoration: none;
-	color: #4923F4;
-} */
 
 .btn-a, .btn-b:hover {
 	background-color: #EDDFD8;
@@ -184,6 +178,7 @@ body {
 
 #about p {
 	font-size: 20px;
+	/* font-family: 'Roboto', sans-serif; */
 }
 
 .section-content {
