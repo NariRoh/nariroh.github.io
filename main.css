@@ -62,9 +62,29 @@ body {
 	color: #4923F4;
 }
 
+.navbar-light .navbar-brand {
+	color: #4923F4;
+}
+
 .navbar-light .navbar-toggler, .navbar-toggler i {
 	color: #4923F4;
 	border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #4923F4;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #000000;
+}
+
+.navbar-collapse {
+	flex-grow: 0;
 }
 
 .navbar-toggler,
@@ -74,7 +94,7 @@ body {
     outline: none;
     border: none;
     box-shadow: none;
-	border: 0px;
+		border: 0px;
 }
 
 /*------/ INTRO /------*/
